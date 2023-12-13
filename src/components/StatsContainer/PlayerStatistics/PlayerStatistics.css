@@ -1,0 +1,32 @@
+.player-statistics-section {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+}
+
+  .player-stats-box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #e8e8e8;
+    border-radius: 8px;
+  }
+
+  .player-stats-box h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1;
+    max-width: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+
+  }
+
+
+  .player-stats-box.in-view {
+    transform: translateX(0);
+    opacity: 1;
+  }
