@@ -12,84 +12,50 @@ web app that embodies the spirit of FutureSports, uniting our collective passion
 
 ## Table of Contents
 
-📦public
- ┣ 📂images
- ┃ ┣ 📜bike_riding.jpg
- ┃ ┣ 📜boxing.jpg
- ┃ ┣ 📜car_rally.jpg
- ┃ ┣ 📜car_road.jpg
- ┃ ┣ 📜olympics.jpg
- ┃ ┗ 📜spiral.svg
- ┣ 📜favicon.ico
- ┣ 📜index.html
- ┣ 📜logo192.png
- ┣ 📜logo512.png
- ┣ 📜manifest.json
- ┗ 📜robots.txt
-
- 📦src
- ┣ 📂components
- ┃ ┣ 📂AboutSection
- ┃ ┃ ┣ 📜AboutFutureSports.css
- ┃ ┃ ┗ 📜AboutFutureSports.jsx
- ┃ ┣ 📂Footer
- ┃ ┃ ┣ 📜Footer.css
- ┃ ┃ ┗ 📜Footer.jsx
- ┃ ┣ 📂HeroBanner
- ┃ ┃ ┣ 📂HeroBannerText
- ┃ ┃ ┃ ┣ 📜HeroText.css
- ┃ ┃ ┃ ┗ 📜HeroText.jsx
- ┃ ┃ ┣ 📂HeroClock
- ┃ ┃ ┃ ┣ 📜HeroClock.css
- ┃ ┃ ┃ ┗ 📜HeroClock.jsx
- ┃ ┃ ┣ 📜HeroBanner.css
- ┃ ┃ ┗ 📜HeroBanner.jsx
- ┃ ┣ 📂MediaSection
- ┃ ┃ ┣ 📜MediaSection.css
- ┃ ┃ ┗ 📜MediaSection.jsx
- ┃ ┣ 📂Navbar
- ┃ ┃ ┣ 📜Navbar.css
- ┃ ┃ ┗ 📜Navbar.jsx
- ┃ ┣ 📂SignupSection
- ┃ ┃ ┣ 📜SignUp.css
- ┃ ┃ ┗ 📜SignUp.jsx
- ┃ ┣ 📂SponsoredContent
- ┃ ┃ ┣ 📜SponsoredContent.css
- ┃ ┃ ┗ 📜SponsoredContent.jsx
- ┃ ┗ 📂StatsContainer
- ┃ ┃ ┣ 📂MatchStatistics
- ┃ ┃ ┃ ┣ 📜Match.css
- ┃ ┃ ┃ ┣ 📜Match.jsx
- ┃ ┃ ┃ ┗ 📜Schedule.jsx
- ┃ ┃ ┣ 📂PlayerStatistics
- ┃ ┃ ┃ ┣ 📜PlayerStatistics.css
- ┃ ┃ ┃ ┗ 📜PlayerStatistics.jsx
- ┃ ┃ ┣ 📜Container.css
- ┃ ┃ ┗ 📜Container.jsx
- ┣ 📜App.css
- ┣ 📜App.js
- ┣ 📜App.test.js
- ┣ 📜index.css
- ┣ 📜index.js
- ┣ 📜logo.svg
- ┣ 📜reportWebVitals.js
- ┗ 📜setupTests.js
-┣ 📂utils
- ┃ ┃ ┣ 📂build
- ┃ ┃ ┃ ┗ 📜rollup.config.js
- ┃ ┃ ┗ 📜packLDrawModel.js
- ┃ ┣ 📜.editorconfig
- ┃ ┣ 📜.eslintrc.json
- ┃ ┣ 📜.gitattributes
- ┃ ┣ 📜.gitignore
- ┃ ┣ 📜icon.png
- ┃ ┣ 📜LICENSE
- ┃ ┣ 📜package-lock.json
- ┃ ┣ 📜package.json
- ┃ ┣ 📜README.md
- ┃ ┗ 📜SECURITY.md
- ┣ 📜.gitignore
- ┣ 📜package-lock.json
- ┣ 📜package.json
- ┣ 📜README.md
+```
+└── 📁src
+    └── App.css
+    └── App.js
+    └── App.test.js
+    └── 📁components
+        └── 📁Footer
+            └── Footer.css
+            └── Footer.jsx
+        └── 📁HeroBanner
+            └── HeroBanner.css
+            └── HeroBanner.jsx
+            └── 📁HeroBannerText
+                └── HeroText.css
+                └── HeroText.jsx
+            └── 📁HeroClock
+                └── HeroClock.css
+                └── HeroClock.jsx
+        └── 📁MediaSection
+            └── MediaSection.css
+            └── MediaSection.jsx
+        └── 📁Navbar
+            └── Navbar.css
+            └── Navbar.jsx
+        └── 📁SignupSection
+            └── SignUp.css
+            └── SignUp.jsx
+        └── 📁SponsoredContent
+            └── SponsoredContent.css
+            └── SponsoredContent.jsx
+        └── 📁StatsContainer
+            └── Container.css
+            └── Container.jsx
+            └── 📁MatchStatistics
+                └── Match.css
+                └── Match.jsx
+                └── Schedule.jsx
+            └── 📁PlayerStatistics
+                └── PlayerStatistics.css
+                └── PlayerStatistics.jsx
+    └── index.css
+    └── index.js
+    └── logo.svg
+    └── reportWebVitals.js
+    └── setupTests.js
+```
  
